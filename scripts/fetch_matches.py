@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -25,41 +26,49 @@ def fetch_page(status):
 
 
 def extract_nuxt_data(html):
-    soup = BeautifulSoup(html, "html.parser")
-
     # Nuxt 3: <script id="__NUXT_DATA__" type="application/json">
+    soup = BeautifulSoup(html, "html.parser")
     tag = soup.find("script", {"id": "__NUXT_DATA__"})
-    if tag and tag.string:
+    if tag:
+        text = tag.get_text() or ""
         try:
-            return json.loads(tag.string)
+            return json.loads(text)
         except json.JSONDecodeError:
             pass
 
     # Nuxt 2: window.__NUXT__ = (function(...){...}(args))
-    for script in soup.find_all("script"):
-        text = script.string or ""
-        if "window.__NUXT__" not in text:
-            continue
-        node_script = f"{text}\nprocess.stdout.write(JSON.stringify(window.__NUXT__));"
-        tmp = tempfile.NamedTemporaryFile(suffix=".js", mode="w", delete=False)
-        try:
-            tmp.write(node_script)
-            tmp.close()
-            result = subprocess.run(
-                ["node", tmp.name],
-                capture_output=True,
-                text=True,
-                timeout=30,
-            )
-        finally:
-            os.unlink(tmp.name)
-        if result.returncode == 0 and result.stdout:
-            try:
-                return json.loads(result.stdout)
-            except json.JSONDecodeError:
-                pass
+    # Use regex on raw HTML — BeautifulSoup's .string returns None on large scripts
+    match = re.search(r"window\.__NUXT__\s*=\s*(\(function\(.*?</script>)", html, re.DOTALL)
+    if not match:
+        return None
 
-    return None
+    nuxt_block = match.group(1)
+    # Strip the trailing </script>
+    nuxt_expr = nuxt_block[:nuxt_block.rfind("</script>")].strip().rstrip(";")
+    node_script = f"var __data = {nuxt_expr};\nprocess.stdout.write(JSON.stringify(__data));"
+
+    tmp = tempfile.NamedTemporaryFile(suffix=".js", mode="w", delete=False, encoding="utf-8")
+    try:
+        tmp.write(node_script)
+        tmp.close()
+        result = subprocess.run(
+            ["node", tmp.name],
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+    finally:
+        os.unlink(tmp.name)
+
+    if result.returncode != 0:
+        print(f"node error: {result.stderr[:300]}", file=sys.stderr)
+        return None
+
+    try:
+        return json.loads(result.stdout)
+    except json.JSONDecodeError as e:
+        print(f"JSON parse error: {e}", file=sys.stderr)
+        return None
 
 
 def find_matches(obj, found=None):
