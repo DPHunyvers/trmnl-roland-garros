@@ -240,7 +240,8 @@
   <div class="header-meta">{{ data.updated_at }}</div>
 </div>
 
-{% if data.french_matches.size == 0 %}
+{% assign fm_count = data.french_matches | size %}
+{% if fm_count == 0 %}
   <div class="empty-state">
     <div class="empty-title">Aucun match français prévu</div>
     <div class="empty-sub">{{ data.updated_at }}</div>
