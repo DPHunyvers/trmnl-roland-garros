@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import json
-import re
+import os
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -40,12 +41,18 @@ def extract_nuxt_data(html):
         if "window.__NUXT__" not in text:
             continue
         node_script = f"{text}\nprocess.stdout.write(JSON.stringify(window.__NUXT__));"
-        result = subprocess.run(
-            ["node", "-e", node_script],
-            capture_output=True,
-            text=True,
-            timeout=30,
-        )
+        tmp = tempfile.NamedTemporaryFile(suffix=".js", mode="w", delete=False)
+        try:
+            tmp.write(node_script)
+            tmp.close()
+            result = subprocess.run(
+                ["node", tmp.name],
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
+        finally:
+            os.unlink(tmp.name)
         if result.returncode == 0 and result.stdout:
             try:
                 return json.loads(result.stdout)
