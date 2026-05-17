@@ -27,33 +27,28 @@
     text-transform: uppercase;
   }
 
-  .header-meta {
+  .header-sub {
     font-size: 11px;
-    opacity: 0.65;
-    letter-spacing: 0.5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    margin-left: 10px;
   }
 
-  .live-badge {
-    display: inline-block;
-    background: #fff;
-    color: #000;
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding: 2px 6px;
-    margin-right: 8px;
-    vertical-align: middle;
+  .header-meta {
+    font-size: 11px;
+    opacity: 0.55;
   }
 
   .matches-list {
-    padding: 4px 0;
+    padding: 0;
   }
 
   .match-row {
     display: flex;
     align-items: stretch;
-    border-bottom: 1px solid #e8e8e8;
-    min-height: 68px;
+    border-bottom: 1px solid #ebebeb;
+    min-height: 108px;
   }
 
   .match-row:last-child {
@@ -61,49 +56,69 @@
   }
 
   .match-left {
-    width: 120px;
+    width: 110px;
     flex-shrink: 0;
-    padding: 8px 12px;
-    border-right: 1px solid #e8e8e8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .match-court {
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    line-height: 1.3;
-  }
-
-  .match-round {
-    font-size: 9px;
-    color: #666;
-    margin-top: 3px;
-  }
-
-  .match-time {
-    font-size: 10px;
-    font-weight: 600;
-    margin-top: 4px;
-  }
-
-  .match-center {
-    flex: 1;
-    padding: 8px 14px;
+    padding: 10px 12px;
+    border-right: 1px solid #ebebeb;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 4px;
   }
 
+  .status-badge {
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  .status-badge.live {
+    background: #000;
+    color: #fff;
+  }
+
+  .status-badge.upcoming {
+    border: 1px solid #bbb;
+    color: #666;
+  }
+
+  .match-court {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  .match-round {
+    font-size: 9px;
+    color: #777;
+  }
+
+  .match-time {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 2px;
+    color: #000;
+  }
+
+  .match-center {
+    flex: 1;
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+  }
+
   .player-line {
     display: flex;
     align-items: center;
-    gap: 6px;
-    height: 22px;
+    gap: 7px;
   }
 
   .service-dot {
@@ -114,22 +129,27 @@
     flex-shrink: 0;
   }
 
-  .service-dot-placeholder {
+  .service-placeholder {
     width: 5px;
     flex-shrink: 0;
   }
 
-  .player-country {
-    font-size: 9px;
-    color: #888;
+  .player-flag {
+    font-size: 10px;
+    font-weight: 700;
+    color: #999;
     width: 26px;
     flex-shrink: 0;
-    font-weight: 600;
     letter-spacing: 0.3px;
   }
 
+  .player-flag.fra {
+    color: #000;
+    font-weight: 800;
+  }
+
   .player-name {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     flex: 1;
     white-space: nowrap;
@@ -137,42 +157,46 @@
     text-overflow: ellipsis;
   }
 
-  .player-name.winner {
+  .player-name.fra-player {
     font-weight: 800;
+  }
+
+  .player-name.winner {
+    text-decoration: underline;
   }
 
   .player-seed {
     font-size: 9px;
-    color: #888;
+    color: #999;
     margin-left: 3px;
     font-weight: 400;
   }
 
   .match-right {
-    width: 140px;
+    width: 110px;
     flex-shrink: 0;
-    padding: 8px 12px;
+    padding: 10px 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4px;
+    gap: 6px;
   }
 
   .score-line {
     display: flex;
     align-items: center;
-    height: 22px;
-    gap: 4px;
+    gap: 5px;
+    min-height: 22px;
   }
 
   .set-score {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     min-width: 18px;
     text-align: center;
   }
 
-  .set-score.winner-set {
+  .set-score.won {
     text-decoration: underline;
   }
 
@@ -184,7 +208,7 @@
     padding: 1px 5px;
     min-width: 22px;
     text-align: center;
-    margin-left: 4px;
+    margin-left: 2px;
   }
 
   .empty-state {
@@ -199,76 +223,58 @@
   .empty-title {
     font-size: 15px;
     font-weight: 700;
-    letter-spacing: 1px;
     color: #333;
   }
 
   .empty-sub {
     font-size: 11px;
-    color: #999;
+    color: #aaa;
   }
 </style>
 
 <div class="header">
-  <div class="header-title">
-    {% if data.live_count > 0 %}
-      <span class="live-badge">LIVE</span>
-    {% endif %}
-    Roland Garros
+  <div>
+    <span class="header-title">Roland Garros</span>
+    <span class="header-sub">Équipe de France</span>
   </div>
-  <div class="header-meta">
-    {% if data.live_count > 0 %}
-      {{ data.live_count }} match{% if data.live_count > 1 %}s{% endif %} en cours &nbsp;·&nbsp;
-    {% endif %}
-    {{ data.updated_at }}
-  </div>
+  <div class="header-meta">{{ data.updated_at }}</div>
 </div>
 
-{% assign live_matches = data.matches | where: "status", "inprogress" %}
-{% assign upcoming_matches = data.matches | where: "status", "upcoming" %}
-{% assign display_matches = live_matches %}
-{% if live_matches.size == 0 %}
-  {% assign display_matches = upcoming_matches %}
-{% endif %}
-
-{% if display_matches.size == 0 %}
+{% if data.french_matches.size == 0 %}
   <div class="empty-state">
-    <div class="empty-title">Aucun match en cours</div>
-    <div class="empty-sub">Mis à jour le {{ data.updated_at }}</div>
+    <div class="empty-title">Aucun match français prévu</div>
+    <div class="empty-sub">{{ data.updated_at }}</div>
   </div>
 {% else %}
   <div class="matches-list">
-    {% for match in display_matches limit: 6 %}
+    {% for match in data.french_matches %}
     <div class="match-row">
 
       <div class="match-left">
-        <div class="match-court">{{ match.court | remove: "Court " | truncate: 16, "" }}</div>
+        {% if match.status == "inprogress" %}
+          <span class="status-badge live">Live</span>
+        {% else %}
+          <span class="status-badge upcoming">À venir</span>
+        {% endif %}
+        <div class="match-court">{{ match.court | remove: "Court " | truncate: 14, "" }}</div>
         <div class="match-round">{{ match.round }}</div>
-        {% if match.time != "" %}
+        {% if match.time != "" and match.time != null %}
           <div class="match-time">{{ match.time }}</div>
         {% endif %}
       </div>
 
       <div class="match-center">
         <div class="player-line">
-          {% if match.team_a.has_service %}
-            <div class="service-dot"></div>
-          {% else %}
-            <div class="service-dot-placeholder"></div>
-          {% endif %}
-          <span class="player-country">{{ match.team_a.country }}</span>
-          <span class="player-name {% if match.team_a.winner %}winner{% endif %}">
+          {% if match.team_a.has_service %}<div class="service-dot"></div>{% else %}<div class="service-placeholder"></div>{% endif %}
+          <span class="player-flag {% if match.team_a.country == 'FRA' %}fra{% endif %}">{{ match.team_a.country }}</span>
+          <span class="player-name {% if match.team_a.country == 'FRA' %}fra-player{% endif %} {% if match.team_a.winner %}winner{% endif %}">
             {{ match.team_a.name }}{% if match.team_a.seed %}<span class="player-seed">({{ match.team_a.seed }})</span>{% endif %}
           </span>
         </div>
         <div class="player-line">
-          {% if match.team_b.has_service %}
-            <div class="service-dot"></div>
-          {% else %}
-            <div class="service-dot-placeholder"></div>
-          {% endif %}
-          <span class="player-country">{{ match.team_b.country }}</span>
-          <span class="player-name {% if match.team_b.winner %}winner{% endif %}">
+          {% if match.team_b.has_service %}<div class="service-dot"></div>{% else %}<div class="service-placeholder"></div>{% endif %}
+          <span class="player-flag {% if match.team_b.country == 'FRA' %}fra{% endif %}">{{ match.team_b.country }}</span>
+          <span class="player-name {% if match.team_b.country == 'FRA' %}fra-player{% endif %} {% if match.team_b.winner %}winner{% endif %}">
             {{ match.team_b.name }}{% if match.team_b.seed %}<span class="player-seed">({{ match.team_b.seed }})</span>{% endif %}
           </span>
         </div>
@@ -276,20 +282,12 @@
 
       <div class="match-right">
         <div class="score-line">
-          {% for s in match.team_a.sets %}
-            <span class="set-score {% if match.team_a.winner %}winner-set{% endif %}">{{ s }}</span>
-          {% endfor %}
-          {% if match.team_a.points != null and match.status == "inprogress" %}
-            <span class="current-points">{{ match.team_a.points }}</span>
-          {% endif %}
+          {% for s in match.team_a.sets %}<span class="set-score {% if match.team_a.winner %}won{% endif %}">{{ s }}</span>{% endfor %}
+          {% if match.team_a.points != null and match.status == "inprogress" %}<span class="current-points">{{ match.team_a.points }}</span>{% endif %}
         </div>
         <div class="score-line">
-          {% for s in match.team_b.sets %}
-            <span class="set-score {% if match.team_b.winner %}winner-set{% endif %}">{{ s }}</span>
-          {% endfor %}
-          {% if match.team_b.points != null and match.status == "inprogress" %}
-            <span class="current-points">{{ match.team_b.points }}</span>
-          {% endif %}
+          {% for s in match.team_b.sets %}<span class="set-score {% if match.team_b.winner %}won{% endif %}">{{ s }}</span>{% endfor %}
+          {% if match.team_b.points != null and match.status == "inprogress" %}<span class="current-points">{{ match.team_b.points }}</span>{% endif %}
         </div>
       </div>
 

@@ -157,10 +157,21 @@ def main():
     upcoming = [m for m in all_matches if m["status"] == "upcoming"]
     completed = [m for m in all_matches if m["status"] == "completed"]
 
+    def has_french_player(m):
+        return (
+            m["team_a"]["country"] == "FRA"
+            or m["team_b"]["country"] == "FRA"
+            or "/FRA" in m["team_a"]["country"]
+            or "/FRA" in m["team_b"]["country"]
+        )
+
+    french_matches = [m for m in live + upcoming if has_french_player(m)][:4]
+
     output = {
         "updated_at": datetime.now(timezone.utc).strftime("%d/%m %H:%M"),
         "live_count": len(live),
         "matches": live + upcoming + completed,
+        "french_matches": french_matches,
     }
 
     out_path = Path(__file__).parent.parent / "data" / "matches.json"
