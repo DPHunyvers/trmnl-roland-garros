@@ -259,9 +259,9 @@
         {% endif %}
         <div class="match-court">{{ match.court | remove: "Court " | truncate: 14, "" }}</div>
         <div class="match-round">{{ match.round }}</div>
-        {% if match.time != "" and match.time != null %}
-          <div class="match-time">{{ match.time }}</div>
-        {% endif %}
+        <div class="match-time">
+          {{ match.date | slice: 6, 2 }}/{{ match.date | slice: 4, 2 }}{% if match.time != "" and match.time != null %} · {{ match.time }}{% endif %}
+        </div>
       </div>
 
       <div class="match-center">
