@@ -1,5 +1,5 @@
 {
-  "updated_at": "20/05 18:41",
+  "updated_at": "20/05 20:55",
   "live_count": 144,
   "matches": [
     {
@@ -2578,12 +2578,12 @@
             "score": 5,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -2606,16 +2606,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 5,
+            "score": 7,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
