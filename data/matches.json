@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/05 20:32",
+  "updated_at": "24/05 21:40",
   "live_count": 104,
   "matches": [
     {
@@ -215,16 +215,23 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 1,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "N. DJOKOVIC",
@@ -246,15 +253,22 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -826,6 +840,20 @@
             "isMatchTieBreak": null
           },
           {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
             "score": 1,
             "tieBreak": null,
             "winner": false,
@@ -857,7 +885,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -5180,16 +5222,23 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 1,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "N. DJOKOVIC",
@@ -5211,15 +5260,22 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
