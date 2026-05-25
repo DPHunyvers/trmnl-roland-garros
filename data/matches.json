@@ -1,5 +1,5 @@
 {
-  "updated_at": "25/05 20:11",
+  "updated_at": "25/05 21:36",
   "live_count": 144,
   "matches": [
     {
@@ -215,7 +215,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -223,8 +237,8 @@
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": "40",
+        "has_service": false
       },
       "team_b": {
         "name": "G. MONFILS",
@@ -246,7 +260,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -254,8 +282,8 @@
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": false
+        "points": "40",
+        "has_service": true
       }
     },
     {
@@ -552,13 +580,13 @@
             "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "K. MUCHOVA",
@@ -573,15 +601,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 5,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "15",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -3283,15 +3311,15 @@
             "isMatchTieBreak": false
           },
           {
-            "score": 3,
+            "score": 5,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -3314,16 +3342,16 @@
             "isMatchTieBreak": false
           },
           {
-            "score": 2,
+            "score": 7,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -7709,7 +7737,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -7717,8 +7759,8 @@
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": "40",
+        "has_service": false
       },
       "team_b": {
         "name": "G. MONFILS",
@@ -7740,7 +7782,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -7748,8 +7804,8 @@
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": false
+        "points": "40",
+        "has_service": true
       }
     },
     {
