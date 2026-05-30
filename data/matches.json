@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/05 19:58",
+  "updated_at": "30/05 21:11",
   "live_count": 141,
   "matches": [
     {
@@ -236,7 +236,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -244,8 +251,8 @@
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": true
+        "points": "0",
+        "has_service": false
       },
       "team_b": {
         "name": "B. NAKASHIMA",
@@ -260,7 +267,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -268,8 +282,8 @@
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": false
+        "points": "40",
+        "has_service": true
       }
     },
     {
@@ -506,7 +520,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 6,
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 5,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -514,7 +535,7 @@
           }
         ],
         "winner": false,
-        "points": "30",
+        "points": "0",
         "has_service": false
       },
       "team_b": {
@@ -530,6 +551,13 @@
             "isMatchTieBreak": null
           },
           {
+            "score": 6,
+            "tieBreak": 2,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
             "score": 5,
             "tieBreak": null,
             "winner": false,
@@ -538,7 +566,7 @@
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": "0",
         "has_service": true
       }
     },
@@ -954,33 +982,6 @@
       }
     },
     {
-      "id": "DD022",
-      "status": "inprogress",
-      "round": "2ème Tour",
-      "court": "Court n°14",
-      "time": null,
-      "date": "20260530",
-      "is_night": false,
-      "team_a": {
-        "name": "L. SIEGEMUND / V. ZVONAREVA",
-        "country": "GER/---",
-        "seed": 11,
-        "sets": [],
-        "winner": true,
-        "points": null,
-        "has_service": false
-      },
-      "team_b": {
-        "name": "F. FERRO / D. PARRY",
-        "country": "FRA",
-        "seed": null,
-        "sets": [],
-        "winner": false,
-        "points": null,
-        "has_service": false
-      }
-    },
-    {
       "id": "SM019",
       "status": "inprogress",
       "round": "3ème Tour",
@@ -1022,16 +1023,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 6,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "score": 7,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "8",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "R. COLLIGNON",
@@ -1068,14 +1069,41 @@
           },
           {
             "score": 6,
-            "tieBreak": null,
+            "tieBreak": 4,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "4",
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DD022",
+      "status": "inprogress",
+      "round": "2ème Tour",
+      "court": "Court n°14",
+      "time": null,
+      "date": "20260530",
+      "is_night": false,
+      "team_a": {
+        "name": "L. SIEGEMUND / V. ZVONAREVA",
+        "country": "GER/---",
+        "seed": 11,
+        "sets": [],
+        "winner": true,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "F. FERRO / D. PARRY",
+        "country": "FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
         "has_service": false
       }
     },
@@ -1256,15 +1284,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "score": 7,
+            "tieBreak": 9,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -1280,16 +1308,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
-            "tieBreak": null,
+            "score": 6,
+            "tieBreak": 7,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -6883,15 +6911,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "score": 7,
+            "tieBreak": 9,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -6907,16 +6935,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
-            "tieBreak": null,
+            "score": 6,
+            "tieBreak": 7,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     }
   ]
