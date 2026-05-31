@@ -1,5 +1,5 @@
 {
-  "updated_at": "31/05 20:17",
+  "updated_at": "31/05 21:34",
   "live_count": 169,
   "matches": [
     {
@@ -222,7 +222,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 5,
+            "score": 6,
+            "tieBreak": 8,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 4,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -231,7 +238,7 @@
         ],
         "winner": false,
         "points": "40",
-        "has_service": false
+        "has_service": true
       },
       "team_b": {
         "name": "J. FONSECA",
@@ -246,7 +253,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 5,
+            "score": 7,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 4,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -254,8 +268,8 @@
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": true
+        "points": "15",
+        "has_service": false
       }
     },
     {
@@ -506,15 +520,22 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -544,16 +565,23 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 4,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
