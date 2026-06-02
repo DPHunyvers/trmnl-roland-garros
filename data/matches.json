@@ -1,5 +1,5 @@
 {
-  "updated_at": "02/06 18:57",
+  "updated_at": "02/06 21:56",
   "live_count": 182,
   "matches": [
     {
@@ -272,16 +272,30 @@
         "seed": 26,
         "sets": [
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "30",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "J. FONSECA",
@@ -289,15 +303,29 @@
         "seed": 28,
         "sets": [
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": 3,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": null,
         "has_service": false
       }
     },
@@ -567,13 +595,13 @@
             "score": 0,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "A. HEWETT",
@@ -588,15 +616,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "A",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -913,15 +941,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 4,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -944,40 +972,13 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
-        "has_service": true
-      }
-    },
-    {
-      "id": "HD012",
-      "status": "inprogress",
-      "round": "1er Tour",
-      "court": "Court n°14",
-      "time": null,
-      "date": "20260602",
-      "is_night": false,
-      "team_a": {
-        "name": "K. MONTJANE",
-        "country": "RSA",
-        "seed": null,
-        "sets": [],
-        "winner": false,
-        "points": null,
-        "has_service": false
-      },
-      "team_b": {
-        "name": "C. FAIRBANK",
-        "country": "FRA",
-        "seed": null,
-        "sets": [],
         "winner": false,
         "points": null,
         "has_service": false
@@ -1239,16 +1240,23 @@
         "seed": null,
         "sets": [
           {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
             "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "Z. WANG",
@@ -1256,15 +1264,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 2,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1431,16 +1446,23 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": 4,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "M. DOMENC / D. JADE",
@@ -1455,15 +1477,22 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1673,16 +1702,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "S. LARRAYA GUIDI / S. ZHENIKHOVA",
@@ -1697,15 +1726,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 0,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1908,15 +1937,22 @@
         "seed": 6,
         "sets": [
           {
-            "score": 3,
+            "score": 7,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "15",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -1925,16 +1961,23 @@
         "seed": null,
         "sets": [
           {
-            "score": 2,
+            "score": 5,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -2129,16 +2172,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 5,
-            "tieBreak": null,
+            "score": 6,
+            "tieBreak": 1,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "L. CINALLI / H. LEE",
@@ -2153,15 +2196,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 6,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -2376,7 +2419,29 @@
         "name": "N. BELOZERTSEV / K. THOMPSON",
         "country": "UZB/HKG",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 7,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": 1,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 0,
+            "tieBreak": 7,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -2385,8 +2450,30 @@
         "name": "Y. ALVAREZ / J. SECORD",
         "country": "PUR/USA",
         "seed": 6,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 5,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       }
@@ -2583,16 +2670,23 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
-        "winner": false,
-        "points": "30",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "Y. ALEXANDRESCOU / R. TABATA",
@@ -2607,15 +2701,22 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": 2,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": null,
         "has_service": false
       }
     },
@@ -2768,15 +2869,15 @@
             "isMatchTieBreak": false
           },
           {
-            "score": 6,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "score": 7,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "3",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -2793,15 +2894,15 @@
           },
           {
             "score": 6,
-            "tieBreak": null,
+            "tieBreak": 8,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "2",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -2942,12 +3043,12 @@
             "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -2963,16 +3064,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 5,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "A",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -3117,16 +3218,23 @@
         "seed": null,
         "sets": [
           {
-            "score": 1,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "R. SPAARGAREN",
@@ -3134,15 +3242,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 1,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
+        "points": null,
         "has_service": false
       }
     },
@@ -3334,6 +3449,63 @@
           },
           {
             "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HD012",
+      "status": "inprogress",
+      "round": "1er Tour",
+      "court": "Court n°13",
+      "time": null,
+      "date": "20260602",
+      "is_night": false,
+      "team_a": {
+        "name": "K. MONTJANE",
+        "country": "RSA",
+        "seed": null,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "C. FAIRBANK",
+        "country": "FRA",
+        "seed": null,
+        "sets": [
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
             "tieBreak": null,
             "winner": false,
             "inProgress": false,
@@ -3921,8 +4093,8 @@
       "date": "20260603",
       "is_night": false,
       "team_a": {
-        "name": "",
-        "country": "",
+        "name": "M. DOMENC / D. JADE",
+        "country": "FRA",
         "seed": null,
         "sets": [],
         "winner": false,
@@ -3930,8 +4102,8 @@
         "has_service": false
       },
       "team_b": {
-        "name": "",
-        "country": "",
+        "name": "A. JOHNSON / T. KONDURI",
+        "country": "USA",
         "seed": null,
         "sets": [],
         "winner": false,
@@ -4056,8 +4228,8 @@
       "date": "20260603",
       "is_night": false,
       "team_a": {
-        "name": "",
-        "country": "",
+        "name": "L. NILSSON / H. SMART",
+        "country": "SWE/GBR",
         "seed": null,
         "sets": [],
         "winner": false,
@@ -4191,8 +4363,8 @@
       "date": "20260603",
       "is_night": false,
       "team_a": {
-        "name": "",
-        "country": "",
+        "name": "S. LARRAYA GUIDI / S. ZHENIKHOVA",
+        "country": "ARG/GER",
         "seed": null,
         "sets": [],
         "winner": false,
@@ -4200,8 +4372,8 @@
         "has_service": false
       },
       "team_b": {
-        "name": "",
-        "country": "",
+        "name": "L. CINALLI / H. LEE",
+        "country": "ARG/KOR",
         "seed": null,
         "sets": [],
         "winner": false,
@@ -4569,9 +4741,9 @@
       "date": "20260603",
       "is_night": false,
       "team_a": {
-        "name": "",
-        "country": "",
-        "seed": null,
+        "name": "P. SKLIAR / M. THAMM",
+        "country": "UKR/GER",
+        "seed": 6,
         "sets": [],
         "winner": false,
         "points": null,
@@ -4659,9 +4831,9 @@
         "has_service": false
       },
       "team_b": {
-        "name": "",
-        "country": "",
-        "seed": null,
+        "name": "Y. ALVAREZ / J. SECORD",
+        "country": "PUR/USA",
+        "seed": 6,
         "sets": [],
         "winner": false,
         "points": null,
@@ -9178,13 +9350,13 @@
             "score": 0,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "A. HEWETT",
@@ -9199,15 +9371,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "A",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
