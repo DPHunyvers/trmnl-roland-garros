@@ -1,106 +1,7 @@
 {
-  "updated_at": "01/06 23:04",
+  "updated_at": "02/06 01:38",
   "live_count": 132,
   "matches": [
-    {
-      "id": "SM009",
-      "status": "inprogress",
-      "round": "1/8 Finale",
-      "court": "Court Suzanne-Lenglen",
-      "time": null,
-      "date": "20260601",
-      "is_night": false,
-      "team_a": {
-        "name": "F. TIAFOE",
-        "country": "USA",
-        "seed": 19,
-        "sets": [
-          {
-            "score": 6,
-            "tieBreak": 5,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": false
-          },
-          {
-            "score": 7,
-            "tieBreak": 7,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": false
-          },
-          {
-            "score": 6,
-            "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
-          },
-          {
-            "score": 6,
-            "tieBreak": 3,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": false
-          },
-          {
-            "score": 4,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
-          }
-        ],
-        "winner": false,
-        "points": "40",
-        "has_service": false
-      },
-      "team_b": {
-        "name": "M. ARNALDI",
-        "country": "ITA",
-        "seed": null,
-        "sets": [
-          {
-            "score": 7,
-            "tieBreak": 7,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": false
-          },
-          {
-            "score": 6,
-            "tieBreak": 5,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": false
-          },
-          {
-            "score": 3,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
-          },
-          {
-            "score": 7,
-            "tieBreak": 7,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": false
-          },
-          {
-            "score": 5,
-            "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
-          }
-        ],
-        "winner": false,
-        "points": "40",
-        "has_service": true
-      }
-    },
     {
       "id": "SD007",
       "status": "inprogress",
@@ -2332,6 +2233,105 @@
             "winner": true,
             "inProgress": false,
             "isMatchTieBreak": false
+          }
+        ],
+        "winner": true,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SM009",
+      "status": "inprogress",
+      "round": "1/8 Finale",
+      "court": "Court Suzanne-Lenglen",
+      "time": null,
+      "date": "20260601",
+      "is_night": false,
+      "team_a": {
+        "name": "F. TIAFOE",
+        "country": "USA",
+        "seed": 19,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": 5,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": 3,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "M. ARNALDI",
+        "country": "ITA",
+        "seed": null,
+        "sets": [
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 6,
+            "tieBreak": 5,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
           }
         ],
         "winner": true,
