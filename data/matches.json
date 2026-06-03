@@ -1,6 +1,6 @@
 {
-  "updated_at": "03/06 15:06",
-  "live_count": 118,
+  "updated_at": "03/06 19:00",
+  "live_count": 158,
   "matches": [
     {
       "id": "SD005",
@@ -144,15 +144,36 @@
         "seed": 4,
         "sets": [
           {
-            "score": 5,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "30",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -164,13 +185,34 @@
             "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -178,25 +220,41 @@
       "status": "inprogress",
       "round": "1/4 Finale",
       "court": "Court Philippe-Chatrier",
-      "time": "20:15",
+      "time": null,
       "date": "20260603",
       "is_night": true,
       "team_a": {
         "name": "M. BERRETTINI",
         "country": "ITA",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
-        "points": null,
-        "has_service": false
+        "points": "30",
+        "has_service": true
       },
       "team_b": {
         "name": "M. ARNALDI",
         "country": "ITA",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
-        "points": null,
+        "points": "30",
         "has_service": false
       }
     },
@@ -392,16 +450,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "L. SIEGEMUND / E. ROGER-VASSELIN",
@@ -416,15 +474,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": null,
         "has_service": false
       }
     },
@@ -440,8 +498,23 @@
         "name": "S. AOYAMA / E. LIANG",
         "country": "JPN/TPE",
         "seed": null,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -449,7 +522,22 @@
         "name": "H. GUO / K. MLADENOVIC",
         "country": "CHN/FRA",
         "seed": 13,
-        "sets": [],
+        "sets": [
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -647,15 +735,22 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 4,
-            "tieBreak": null,
+            "score": 6,
+            "tieBreak": 6,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
-        "winner": false,
-        "points": "0",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -671,16 +766,23 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
-            "tieBreak": null,
+            "score": 7,
+            "tieBreak": 8,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 0,
+            "tieBreak": 5,
             "winner": false,
-            "inProgress": true,
-            "isMatchTieBreak": null
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -695,7 +797,22 @@
         "name": "E. PEREZ / D. SCHUURS",
         "country": "AUS/NED",
         "seed": 7,
-        "sets": [],
+        "sets": [
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": 6,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -704,8 +821,23 @@
         "name": "A. DANILINA / A. KRUNIC",
         "country": "KAZ/SRB",
         "seed": 2,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 7,
+            "tieBreak": 8,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       }
@@ -952,16 +1084,23 @@
         "seed": null,
         "sets": [
           {
-            "score": 3,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "J. BOS / L. DE GREEF",
@@ -969,15 +1108,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 0,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1187,15 +1333,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 4,
+            "score": 7,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "15",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -1211,16 +1357,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 4,
+            "score": 5,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -1228,14 +1374,36 @@
       "status": "inprogress",
       "round": "2ème Tour",
       "court": "Court n°7",
-      "time": "17:30",
+      "time": null,
       "date": "20260603",
       "is_night": false,
       "team_a": {
         "name": "A. GABET / M. KAOUK",
         "country": "FRA",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": 4,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -1244,8 +1412,30 @@
         "name": "J. MACKENZIE / V. REISACH",
         "country": "GER",
         "seed": 8,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": 4,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       }
@@ -1395,13 +1585,20 @@
             "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": 2,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "L. CINALLI / H. LEE",
@@ -1409,15 +1606,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 4,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
           }
         ],
-        "winner": false,
-        "points": "15",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1426,15 +1630,37 @@
       "status": "inprogress",
       "round": "2ème Tour",
       "court": "Court n°6",
-      "time": "17:50",
+      "time": null,
       "date": "20260603",
       "is_night": false,
       "team_a": {
         "name": "L. NILSSON / H. SMART",
         "country": "SWE/GBR",
         "seed": null,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 6,
+            "tieBreak": 4,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -1442,34 +1668,29 @@
         "name": "C. ESQUIVA BANULS / N. LEME DA SILVA",
         "country": "ESP/BRA",
         "seed": 2,
-        "sets": [],
-        "winner": false,
-        "points": null,
-        "has_service": false
-      }
-    },
-    {
-      "id": "DG015",
-      "status": "inprogress",
-      "round": "2ème Tour",
-      "court": "Court n°6",
-      "time": null,
-      "date": "20260603",
-      "is_night": false,
-      "team_a": {
-        "name": "L. STORCK FRANCA / F. THOMAS",
-        "country": "BRA/SUI",
-        "seed": null,
-        "sets": [],
-        "winner": false,
-        "points": null,
-        "has_service": false
-      },
-      "team_b": {
-        "name": "K. HANCE / J. KENNEDY",
-        "country": "USA",
-        "seed": 2,
-        "sets": [],
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": 2,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 0,
+            "tieBreak": 4,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -1667,15 +1888,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 4,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
+        "winner": true,
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -1694,13 +1915,13 @@
             "score": 1,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": true
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -1715,8 +1936,23 @@
         "name": "L. MIGUEL / Z. SESKO",
         "country": "BRA/SLO",
         "seed": 1,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -1724,7 +1960,22 @@
         "name": "K. PANTARATORN / A. PAPARKAR",
         "country": "THA/IND",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -1886,16 +2137,30 @@
         "seed": 4,
         "sets": [
           {
-            "score": 4,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
-        "winner": false,
-        "points": "40",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "C. CLARKE / O. TRAYNOR",
@@ -1906,12 +2171,26 @@
             "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": 8,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
           }
         ],
         "winner": false,
-        "points": "40",
+        "points": null,
         "has_service": false
       }
     },
@@ -1927,7 +2206,22 @@
         "name": "T. BEHRMANN / K. CHEN",
         "country": "AUT/TPE",
         "seed": 4,
-        "sets": [],
+        "sets": [
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 5,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -1936,8 +2230,23 @@
         "name": "R. CIURNELLI / L. SLOBODA",
         "country": "ITA/SVK",
         "seed": null,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 7,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       }
@@ -2162,15 +2471,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -2186,16 +2495,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -2210,8 +2519,30 @@
         "name": "N. BAENA / T. CHAVEZ",
         "country": "PER/ESP",
         "seed": 5,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": 10,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -2219,7 +2550,29 @@
         "name": "C. DOIG / D. KISIMOV",
         "country": "RSA/BUL",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": 4,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": true
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -2415,14 +2768,29 @@
       "status": "inprogress",
       "round": "2ème Tour",
       "court": "Court n°10",
-      "time": "17:15",
+      "time": null,
       "date": "20260603",
       "is_night": false,
       "team_a": {
         "name": "P. SKLIAR / M. THAMM",
         "country": "UKR/GER",
         "seed": 6,
-        "sets": [],
+        "sets": [
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -2431,8 +2799,23 @@
         "name": "J. KOVACKOVA / K. ZAJICKOVA",
         "country": "CZE",
         "seed": null,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       }
@@ -2613,15 +2996,30 @@
       "status": "inprogress",
       "round": "2ème Tour",
       "court": "Court n°11",
-      "time": "17:00",
+      "time": null,
       "date": "20260603",
       "is_night": false,
       "team_a": {
         "name": "V. BARROS / P. PINERA CELORIO",
         "country": "BRA/ESP",
         "seed": 1,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -2629,7 +3027,22 @@
         "name": "E. DOTSENKO / I. PISTOLA",
         "country": "---/ITA",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -2834,15 +3247,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 0,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "30",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -2851,16 +3271,23 @@
         "seed": 2,
         "sets": [
           {
-            "score": 1,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -3035,25 +3462,82 @@
       }
     },
     {
-      "id": "X05",
+      "id": "DG015",
       "status": "inprogress",
-      "round": null,
+      "round": "2ème Tour",
+      "court": "Court n°13",
+      "time": null,
+      "date": "20260603",
+      "is_night": false,
+      "team_a": {
+        "name": "L. STORCK FRANCA / F. THOMAS",
+        "country": "BRA/SUI",
+        "seed": null,
+        "sets": [
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "K. HANCE / J. KENNEDY",
+        "country": "USA",
+        "seed": 2,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "MX001",
+      "status": "inprogress",
+      "round": "Finale",
       "court": "Court Philippe-Chatrier",
       "time": null,
       "date": "20260604",
       "is_night": false,
       "team_a": {
-        "name": "",
-        "country": "",
-        "seed": null,
+        "name": "S. ERRANI / A. VAVASSORI",
+        "country": "ITA",
+        "seed": 1,
         "sets": [],
         "winner": false,
         "points": null,
         "has_service": false
       },
       "team_b": {
-        "name": "",
-        "country": "",
+        "name": "G. DABROWSKI / E. KING",
+        "country": "CAN/USA",
         "seed": null,
         "sets": [],
         "winner": false,
@@ -3109,6 +3593,1086 @@
         "name": "M. CHWALINSKA",
         "country": "POL",
         "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DM003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court Suzanne-Lenglen",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "Q. HALYS / P. HERBERT",
+        "country": "FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "H. HELIOVAARA / H. PATTEN",
+        "country": "FIN/GBR",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HD004",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court Suzanne-Lenglen",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "Y. KAMIJI",
+        "country": "JPN",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "P. DEROULEDE",
+        "country": "FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "LM009",
+      "status": "inprogress",
+      "round": "",
+      "court": "Court Simonne-Mathieu",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "J. MCENROE / J. TSONGA",
+        "country": "USA/FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "F. SANTORO / M. WILANDER",
+        "country": "FRA/SWE",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "LD010",
+      "status": "inprogress",
+      "round": "",
+      "court": "Court Simonne-Mathieu",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "M. HINGIS / L. SAFAROVA",
+        "country": "SUI/CZE",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "T. GOLOVIN / A. IVANOVIC",
+        "country": "FRA/SRB",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "LX009",
+      "status": "inprogress",
+      "round": "",
+      "court": "Court n°14",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "F. SCHIAVONE / A. CLEMENT",
+        "country": "ITA/FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "D. HANTUCHOVA / G. FORGET",
+        "country": "SVK/FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SF005",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°14",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "J. KOVACKOVA",
+        "country": "CZE",
+        "seed": 4,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "C. ESQUIVA BANULS",
+        "country": "ESP",
+        "seed": 9,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SG007",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°14",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "Z. SESKO",
+        "country": "SLO",
+        "seed": 5,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "M. ANTONIUS",
+        "country": "USA",
+        "seed": 13,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DG005",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°14",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "R. CIURNELLI / L. SLOBODA",
+        "country": "ITA/SVK",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "J. MACKENZIE / V. REISACH",
+        "country": "GER",
+        "seed": 8,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HM004",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°7",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "T. ODA",
+        "country": "JPN",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "D. RODRIGUES",
+        "country": "BRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HM005",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°7",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "M. DE LA PUENTE",
+        "country": "ESP",
+        "seed": 3,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "T. MIKI",
+        "country": "JPN",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HF002",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°7",
+      "time": "15:00",
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "Y. KAMIJI / Z. ZHU",
+        "country": "JPN/CHN",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "D. DE GROOT / A. VAN KOOT",
+        "country": "NED",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HH003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°7",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "G. FERNANDEZ / T. ODA",
+        "country": "ARG/JPN",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "M. DE LA PUENTE / S. HOUDET",
+        "country": "ESP/FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SF006",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°6",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "H. LEE",
+        "country": "KOR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "V. BARROS",
+        "country": "BRA",
+        "seed": 3,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SG005",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°6",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "J. KENNEDY",
+        "country": "USA",
+        "seed": 4,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "L. STORCK FRANCA",
+        "country": "BRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DG006",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°6",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "S. AZAM / D. BRAND",
+        "country": "USA/ISR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "M. DOMENC / D. JADE",
+        "country": "FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DF007",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°6",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "L. CINALLI / H. LEE",
+        "country": "ARG/KOR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "L. NILSSON / H. SMART",
+        "country": "SWE/GBR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DG004",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°6",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "L. MIGUEL / Z. SESKO",
+        "country": "BRA/SLO",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "Y. ALVAREZ / J. SECORD",
+        "country": "PUR/USA",
+        "seed": 6,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SF004",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°8",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "E. DOTSENKO",
+        "country": "---",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "A. OKTIABREVA",
+        "country": "---",
+        "seed": 12,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SG006",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°8",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "K. HANCE",
+        "country": "USA",
+        "seed": 6,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "J. MACKENZIE",
+        "country": "GER",
+        "seed": 3,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DF004",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°8",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "V. BARROS / P. PINERA CELORIO",
+        "country": "BRA/ESP",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "J. HAZELITT / W. NEWMAN",
+        "country": "USA",
+        "seed": 8,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DF006",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°8",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "J. KOVACKOVA / K. ZAJICKOVA",
+        "country": "CZE",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "A. CVETKOVIC / T. FRODIN",
+        "country": "SRB/USA",
+        "seed": 3,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HG003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°9",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "L. HEALD",
+        "country": "USA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "S. MATSUOKA",
+        "country": "JPN",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HG002",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°9",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "L. GRYP",
+        "country": "BEL",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "P. LOPEZ MEZA",
+        "country": "COL",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HB003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°9",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "L. DE GOUVEIA",
+        "country": "GBR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "M. KNOESEN",
+        "country": "GBR",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HB002",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°9",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "A. LANTERMANN",
+        "country": "BEL",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "W. BARTON",
+        "country": "GBR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SF007",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°10",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "A. CVETKOVIC",
+        "country": "SRB",
+        "seed": 6,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "X. SUN",
+        "country": "CHN",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "SG004",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°10",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "L. MIGUEL",
+        "country": "BRA",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "T. BEHRMANN",
+        "country": "AUT",
+        "seed": 7,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DF005",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°10",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "X. SUN / R. ZHANG",
+        "country": "CHN",
+        "seed": 4,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "F. DOROFEEVA-RYBAS / A. PUSHKAREVA",
+        "country": "---",
+        "seed": 5,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "DG007",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°10",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "N. BAENA / T. CHAVEZ",
+        "country": "PER/ESP",
+        "seed": 5,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "K. HANCE / J. KENNEDY",
+        "country": "USA",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HM007",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°11",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "Z. JI",
+        "country": "CHN",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "A. HEWETT",
+        "country": "GBR",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HD005",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°11",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "D. DE GROOT",
+        "country": "NED",
+        "seed": 4,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "L. GUO",
+        "country": "CHN",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HD007",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°11",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "Z. WANG",
+        "country": "CHN",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "X. LI",
+        "country": "CHN",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "CM003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°12",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "G. SASSON",
+        "country": "ISR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "N. VINK",
+        "country": "NED",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "CM002",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°12",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "S. SCHRODER",
+        "country": "NED",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "A. KAPLAN",
+        "country": "TUR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "CH002",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°12",
+      "time": "15:00",
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "G. SASSON / N. VINK",
+        "country": "ISR/NED",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "A. KAPLAN / G. LAZARTE ",
+        "country": "TUR/ARG",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "CH003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°12",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "A. LAPTHORNE / G. SLADE",
+        "country": "GBR",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "S. SCHRODER / J. WOODMAN",
+        "country": "NED/AUS",
+        "seed": 2,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HD006",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°13",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "K. MONTJANE",
+        "country": "RSA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "K. CHASTEAU",
+        "country": "FRA",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HM006",
+      "status": "inprogress",
+      "round": "1/4 Finale",
+      "court": "Court n°13",
+      "time": null,
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "T. EGBERINK",
+        "country": "NED",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "G. FERNANDEZ",
+        "country": "ARG",
+        "seed": 4,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HH002",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°13",
+      "time": "15:00",
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "A. HEWETT / G. REID",
+        "country": "GBR",
+        "seed": 1,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "G. LAGET / T. MIKI",
+        "country": "FRA/JPN",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      }
+    },
+    {
+      "id": "HF003",
+      "status": "inprogress",
+      "round": "1/2 Finale",
+      "court": "Court n°13",
+      "time": "16:30",
+      "date": "20260604",
+      "is_night": false,
+      "team_a": {
+        "name": "J. BOS / L. DE GREEF",
+        "country": "NED",
+        "seed": null,
+        "sets": [],
+        "winner": false,
+        "points": null,
+        "has_service": false
+      },
+      "team_b": {
+        "name": "X. LI / Z. WANG",
+        "country": "CHN",
+        "seed": 2,
         "sets": [],
         "winner": false,
         "points": null,
@@ -6767,16 +8331,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "L. SIEGEMUND / E. ROGER-VASSELIN",
@@ -6791,15 +8355,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": null,
         "has_service": false
       }
     },
@@ -6815,8 +8379,23 @@
         "name": "S. AOYAMA / E. LIANG",
         "country": "JPN/TPE",
         "seed": null,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -6824,7 +8403,22 @@
         "name": "H. GUO / K. MLADENOVIC",
         "country": "CHN/FRA",
         "seed": 13,
-        "sets": [],
+        "sets": [
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
