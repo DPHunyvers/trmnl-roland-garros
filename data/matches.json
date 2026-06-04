@@ -1,5 +1,5 @@
 {
-  "updated_at": "04/06 18:30",
+  "updated_at": "04/06 20:53",
   "live_count": 128,
   "matches": [
     {
@@ -1658,16 +1658,16 @@
             "isMatchTieBreak": false
           },
           {
-            "score": 0,
+            "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "J. MACKENZIE / V. REISACH",
@@ -1682,15 +1682,15 @@
             "isMatchTieBreak": false
           },
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1957,15 +1957,15 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": null,
         "has_service": false
       },
       "team_b": {
@@ -1981,16 +1981,16 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "0",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       }
     },
     {
@@ -3137,9 +3137,9 @@
         "has_service": false
       },
       "team_b": {
-        "name": "",
-        "country": "",
-        "seed": null,
+        "name": "J. MACKENZIE / V. REISACH",
+        "country": "GER",
+        "seed": 8,
         "sets": [],
         "winner": false,
         "points": null,
@@ -3245,9 +3245,9 @@
         "has_service": false
       },
       "team_b": {
-        "name": "",
-        "country": "",
-        "seed": null,
+        "name": "K. HANCE / J. KENNEDY",
+        "country": "USA",
+        "seed": 2,
         "sets": [],
         "winner": false,
         "points": null,
