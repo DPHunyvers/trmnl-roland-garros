@@ -1,5 +1,5 @@
 {
-  "updated_at": "06/06 09:35",
+  "updated_at": "06/06 11:11",
   "live_count": 39,
   "matches": [
     {
@@ -16,16 +16,23 @@
         "seed": 1,
         "sets": [
           {
-            "score": 3,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "15",
-        "has_service": true
+        "winner": true,
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "H. HELIOVAARA / H. PATTEN",
@@ -33,15 +40,22 @@
         "seed": 2,
         "sets": [
           {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
             "score": 2,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "30",
+        "points": null,
         "has_service": false
       }
     },
@@ -86,16 +100,16 @@
         "seed": null,
         "sets": [
           {
-            "score": 2,
+            "score": 5,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "N. DECHY / J. TSONGA",
@@ -103,15 +117,15 @@
         "seed": null,
         "sets": [
           {
-            "score": 4,
+            "score": 7,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -120,15 +134,30 @@
       "status": "inprogress",
       "round": "Finale",
       "court": "Court Suzanne-Lenglen",
-      "time": "12:00",
+      "time": null,
       "date": "20260606",
       "is_night": false,
       "team_a": {
         "name": "D. DE GROOT",
         "country": "NED",
         "seed": 4,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -136,7 +165,22 @@
         "name": "K. CHASTEAU",
         "country": "FRA",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -183,16 +227,23 @@
         "seed": null,
         "sets": [
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "A. CORNET / T. GOLOVIN",
@@ -200,15 +251,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 5,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -217,25 +275,41 @@
       "status": "inprogress",
       "round": "Finale",
       "court": "Court Simonne-Mathieu",
-      "time": "12:00",
+      "time": null,
       "date": "20260606",
       "is_night": false,
       "team_a": {
         "name": "A. OKTIABREVA",
         "country": "---",
         "seed": 12,
-        "sets": [],
+        "sets": [
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
-        "points": null,
-        "has_service": false
+        "points": "15",
+        "has_service": true
       },
       "team_b": {
         "name": "X. SUN",
         "country": "CHN",
         "seed": 2,
-        "sets": [],
+        "sets": [
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
-        "points": null,
+        "points": "30",
         "has_service": false
       }
     },
@@ -307,15 +381,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 1,
+            "score": 3,
             "tieBreak": null,
             "winner": false,
             "inProgress": false,
             "isMatchTieBreak": null
+          },
+          {
+            "score": 2,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
+        "points": "40",
         "has_service": false
       },
       "team_b": {
@@ -324,15 +405,22 @@
         "seed": 2,
         "sets": [
           {
-            "score": 1,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
             "tieBreak": null,
             "winner": false,
-            "inProgress": false,
+            "inProgress": true,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "0",
+        "points": "15",
         "has_service": true
       }
     },
@@ -1957,16 +2045,16 @@
         "seed": null,
         "sets": [
           {
-            "score": 2,
+            "score": 5,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "15",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "N. DECHY / J. TSONGA",
@@ -1974,15 +2062,15 @@
         "seed": null,
         "sets": [
           {
-            "score": 4,
+            "score": 7,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "30",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     },
@@ -1991,15 +2079,30 @@
       "status": "inprogress",
       "round": "Finale",
       "court": "Court Suzanne-Lenglen",
-      "time": "12:00",
+      "time": null,
       "date": "20260606",
       "is_night": false,
       "team_a": {
         "name": "D. DE GROOT",
         "country": "NED",
         "seed": 4,
-        "sets": [],
-        "winner": false,
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
+        "winner": true,
         "points": null,
         "has_service": false
       },
@@ -2007,7 +2110,22 @@
         "name": "K. CHASTEAU",
         "country": "FRA",
         "seed": null,
-        "sets": [],
+        "sets": [
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 0,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
         "points": null,
         "has_service": false
@@ -2054,16 +2172,23 @@
         "seed": null,
         "sets": [
           {
-            "score": 2,
+            "score": 4,
             "tieBreak": null,
             "winner": false,
-            "inProgress": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": true
+        "points": null,
+        "has_service": false
       },
       "team_b": {
         "name": "A. CORNET / T. GOLOVIN",
@@ -2071,15 +2196,22 @@
         "seed": null,
         "sets": [
           {
-            "score": 5,
+            "score": 6,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": true,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
             "isMatchTieBreak": null
           }
         ],
-        "winner": false,
-        "points": "40",
+        "winner": true,
+        "points": null,
         "has_service": false
       }
     }
