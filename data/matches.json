@@ -1,5 +1,5 @@
 {
-  "updated_at": "07/06 12:24",
+  "updated_at": "07/06 14:30",
   "live_count": 15,
   "matches": [
     {
@@ -64,26 +64,56 @@
       "status": "inprogress",
       "round": "Finale",
       "court": "Court Philippe-Chatrier",
-      "time": "15:00",
+      "time": null,
       "date": "20260607",
       "is_night": false,
       "team_a": {
         "name": "F. COBOLLI",
         "country": "ITA",
         "seed": 10,
-        "sets": [],
+        "sets": [
+          {
+            "score": 1,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
-        "points": null,
+        "points": "40",
         "has_service": false
       },
       "team_b": {
         "name": "A. ZVEREV",
         "country": "GER",
         "seed": 2,
-        "sets": [],
+        "sets": [
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 3,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": true,
+            "isMatchTieBreak": null
+          }
+        ],
         "winner": false,
-        "points": null,
-        "has_service": false
+        "points": "30",
+        "has_service": true
       }
     },
     {
