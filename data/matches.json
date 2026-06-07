@@ -1,5 +1,5 @@
 {
-  "updated_at": "07/06 14:30",
+  "updated_at": "07/06 16:00",
   "live_count": 15,
   "matches": [
     {
@@ -80,7 +80,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 2,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -88,8 +102,8 @@
           }
         ],
         "winner": false,
-        "points": "40",
-        "has_service": false
+        "points": "15",
+        "has_service": true
       },
       "team_b": {
         "name": "A. ZVEREV",
@@ -104,7 +118,21 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 3,
+            "score": 4,
+            "tieBreak": null,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 6,
+            "tieBreak": null,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": null
+          },
+          {
+            "score": 1,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -112,8 +140,8 @@
           }
         ],
         "winner": false,
-        "points": "30",
-        "has_service": true
+        "points": "0",
+        "has_service": false
       }
     },
     {
