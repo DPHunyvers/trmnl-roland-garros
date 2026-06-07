@@ -1,5 +1,5 @@
 {
-  "updated_at": "07/06 16:00",
+  "updated_at": "07/06 17:41",
   "live_count": 15,
   "matches": [
     {
@@ -94,7 +94,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 2,
+            "score": 7,
+            "tieBreak": 7,
+            "winner": true,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 1,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
@@ -102,7 +109,7 @@
           }
         ],
         "winner": false,
-        "points": "15",
+        "points": "0",
         "has_service": true
       },
       "team_b": {
@@ -132,7 +139,14 @@
             "isMatchTieBreak": null
           },
           {
-            "score": 1,
+            "score": 6,
+            "tieBreak": 5,
+            "winner": false,
+            "inProgress": false,
+            "isMatchTieBreak": false
+          },
+          {
+            "score": 5,
             "tieBreak": null,
             "winner": false,
             "inProgress": true,
