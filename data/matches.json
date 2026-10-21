@@ -1,5 +1,5 @@
 {
-  "updated_at": "21/10 05:21",
+  "updated_at": "21/10 10:29",
   "live_count": 3,
   "matches": [
     {
@@ -16,18 +16,18 @@
         "seed": 1,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 7,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           }
         ],
         "winner": true,
@@ -40,18 +40,18 @@
         "seed": 2,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 2,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 5,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           }
         ],
         "winner": false,
@@ -73,39 +73,39 @@
         "seed": 10,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 1,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 4,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": false,
             "score": 7,
             "tieBreak": 7,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": false
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 1,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           }
         ],
         "winner": false,
@@ -118,39 +118,39 @@
         "seed": 2,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 4,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": false,
             "score": 6,
             "tieBreak": 5,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": false
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           }
         ],
         "winner": true,
@@ -172,18 +172,18 @@
         "seed": null,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": false,
             "score": 6,
             "tieBreak": 5,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": false
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 3,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           }
         ],
         "winner": false,
@@ -196,18 +196,18 @@
         "seed": null,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": false,
             "score": 7,
             "tieBreak": 7,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": false
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           }
         ],
         "winner": true,
@@ -231,18 +231,18 @@
         "seed": null,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": false,
             "score": 6,
             "tieBreak": 5,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": false
+            "winner": false
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 3,
             "tieBreak": null,
-            "winner": false,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": false
           }
         ],
         "winner": false,
@@ -255,18 +255,18 @@
         "seed": null,
         "sets": [
           {
+            "inProgress": false,
+            "isMatchTieBreak": false,
             "score": 7,
             "tieBreak": 7,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": false
+            "winner": true
           },
           {
+            "inProgress": false,
+            "isMatchTieBreak": null,
             "score": 6,
             "tieBreak": null,
-            "winner": true,
-            "inProgress": false,
-            "isMatchTieBreak": null
+            "winner": true
           }
         ],
         "winner": true,
